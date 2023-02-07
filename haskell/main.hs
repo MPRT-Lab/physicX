@@ -1,5 +1,7 @@
 import Constants
 main = do
-	print (epsilon0)
+	print (1/epsilon0)
 	print (h,rh)
+	print (g)
+	print (e * u0)
 	print (c ** 2)
