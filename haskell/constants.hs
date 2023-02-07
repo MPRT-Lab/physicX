@@ -26,6 +26,9 @@ n_a = 6.02214076e23
 e :: Float
 e = 1.602176634e-19
 
+m_e :: Float
+m_e = 9.1093837015e-31
+
 f :: Float
 f = e * n_a
 
@@ -34,9 +37,6 @@ k_j = (2 * e)/h
 
 r_k :: Float
 r_k = h/e**2
-
-m_e :: Float
-m_e = 9.1093837015e-31
 
 alpha :: Float
 alpha = e**2/(2 * epsilon0 * (h * c))
