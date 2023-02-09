@@ -1,0 +1,21 @@
+package constants;
+
+var PI := acos(0.0) * 2;
+var c := 299792458;
+var G := 6.674e-11;
+var u0 := (4 * PI * 10**(-7));
+var epsilon0 := 1 / (c ** 2 * u0);
+var h := 6.62607015e-34;
+var rh := h/(2 * PI);
+var N_A := 6.02214076e23;
+var e := 1.602176634e-19;
+var F := e * N_A;
+var K_J := (2 * e) / h;
+var R_K := h / e ** 2;
+var m_e := 9.1093837015e-31;
+var alpha := e ** 2/ (2 * epsilon0 * (h * c));
+var R_inf := (m_e * e ** 4)/((8 * epsilon0**2) * (h ** 3 * c));
+
+end constants;
+
+
