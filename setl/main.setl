@@ -1,6 +1,6 @@
 #include "constants.setl"
-program hello;
 
+program hello;
 use constants;
 
 print(1/epsilon0);
