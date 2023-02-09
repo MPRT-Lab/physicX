@@ -1,0 +1,10 @@
+#include "constants.setl"
+program hello;
+
+use constants;
+
+print(1/epsilon0);
+print(c ** 2);
+print(F);
+
+end hello;
