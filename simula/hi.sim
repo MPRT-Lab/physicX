@@ -1,4 +1,0 @@
-Begin
-	OutText ("hello world");
-	Outimage;
-End;
