@@ -4,6 +4,7 @@ constants.c = 299792458
 constants.G = 6.674e-11
 constants.u0 =  (4 * math.pi * 1E-7)
 constants.epsilon0 = 1/(constants.c^2 * constants.u0)
+constants.k = 1/(constants.epsilon0 * math.pi * 4)
 constants.h = 6.62607015e-34
 constants.rh = constants.h / (2 * math.pi)
 constants.N_A = 6.02214076e23
