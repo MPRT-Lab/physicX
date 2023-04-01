@@ -20,6 +20,8 @@
 (DEFVAR rh (/ h (* 2 PI)))
 (DEFVAR N_A 6.02214076E23)
 (DEFVAR e 1.602176634E-19)
+(DEFVAR R 8.31446261815324)
+(DEFVAR k_B (/ R N_A))
 (DEFVAR F (* e N_A))
 (DEFVAR K_J (/ (* 2 e) h))
 (DEFVAR R_K (/ h (POW e 2)))
