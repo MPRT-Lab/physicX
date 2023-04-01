@@ -1,6 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0","numpy"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "physicX"
-version = "0.0.11"
+version = "0.0.111"
 authors = [
   { name="mad99hi", email="mad99himad99hi@gmail.com" },
 ]
