@@ -1,5 +1,5 @@
 module Constants (
-  c, g, u0, epsilon0, k, h, rh, n_a, e, f, k_j, r_k, m_e, alpha, r_inf
+  c, g, u0, epsilon0, k, h, rh, n_a, r, k_b, e, f, k_j, r_k, m_e, alpha, r_inf
 ) where
 
 c :: Float
@@ -25,6 +25,12 @@ rh = h / (2 * pi)
 
 n_a :: Float
 n_a = 6.02214076e23
+
+r :: Float
+r = 8.31446261815324
+
+k_b :: Float
+k_b = r/n_a
 
 e :: Float
 e = 1.602176634e-19
