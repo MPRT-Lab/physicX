@@ -2,9 +2,9 @@
 
 int main()
 {
-  printf("%f", pow(c,2));
-  printf("%f", 1 / epsilon0);
-  printf("%f", h * F);
-  printf("%f", G);
+  printf("%f\n", pow(c,2));
+  printf("%.15f\n", 1 / epsilon0);
+  printf("%.34f\n", h * F);
+  printf("%.15f", G);
   return 0;
 }
