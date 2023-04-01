@@ -16,9 +16,12 @@ extern "C" {
 #define N_A 6.02214076e23
 #define e 1.602176634e-19
 #define F e * N_A
+#define R 8.31446261815324
+#define k_B R/N_A
 #define K_J (2 * e)/h
 #define R_K h/pow(e,2)
 #define m_e 9.1093837015e-31
+
 #define alpha pow(e,2)/ (2 * epsilon0 * (h * c)) 
 #define R_inf (m_e * pow(e,4)) / (8 * pow(epsilon0,2) * pow(h,3) * c)
 #ifdef __cplusplus
