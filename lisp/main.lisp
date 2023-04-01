@@ -7,6 +7,6 @@
 (PRINT (/ 1 epsilon0))
 (WRITE h) (TERPRI) (WRITE rh)
 (PRINT G)
-(PRINT (* hr u0))
+(PRINT (* rh u0))
 (PRINT (POW c 2))
  
