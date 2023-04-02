@@ -8,7 +8,7 @@ version = "0.0.111"
 authors = [
   { name="mad99hi", email="mad99himad99hi@gmail.com" },
 ]
-description = "mathematics and phsyics library"
+description = "mathematics and physics library"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
