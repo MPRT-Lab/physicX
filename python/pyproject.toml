@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "physicX"
-version = "0.0.112"
+version = "0.0.113"
 authors = [
-  { name="mad99hi", email="mad99himad99hi@gmail.com" },
+  { name="anonymous14725", email="anonymous14725@yahoo.com" },
 ]
 description = "mathematics and physics library"
 readme = "README.md"
