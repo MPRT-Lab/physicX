@@ -1,5 +1,3 @@
-# Example Package
-
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+# PhysicX library for python
+This project with LICENSE GNU-GPLv3, in fact created for developers , physicist , mathematicians and this project
+<pre>pre-released</pre>
