@@ -16,4 +16,3 @@ f = e * N_A
 K_J = (2 * e)/h
 R_K = h/e**2
 alpha = e**2/(2 * epsilon0 * (h * c))
-
