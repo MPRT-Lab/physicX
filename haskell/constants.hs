@@ -1,4 +1,4 @@
-module Constants (
+module Physicx.Constants (
   c, g, u0, epsilon0, k, h, rh, n_a, r, k_b, e, f, k_j, r_k, m_e, alpha, r_inf
 ) where
 
