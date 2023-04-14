@@ -21,6 +21,7 @@ extern "C" {
 #define K_J (2 * e)/h
 #define R_K h/pow(e,2)
 #define m_e 9.1093837015e-31
+#define kaka (8 * M_PI * G)/pow(c,4)
 
 #define alpha pow(e,2)/ (2 * epsilon0 * (h * c)) 
 #define R_inf (m_e * pow(e,4)) / (8 * pow(epsilon0,2) * pow(h,3) * c)
