@@ -23,6 +23,7 @@
 (DEFVAR R 8.31446261815324)
 (DEFVAR k_B (/ R N_A))
 (DEFVAR F (* e N_A))
+(DEFVAR kaka (/ (* (* 8 PI) G) (POW c 4)))
 (DEFVAR K_J (/ (* 2 e) h))
 (DEFVAR R_K (/ h (POW e 2)))
 (DEFVAR m_e 9.1093837015E-31)
