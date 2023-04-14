@@ -15,6 +15,7 @@ constants.F = constants.e * constants.N_A
 constants.K_J = (2 * constants.e)/constants.h
 constants.R_K = constants.h/constants.e^2
 constants.m_e = 9.1093837015e-31
+constants.kaka = (8 * math.pi * constants.G)/(constants.c^4)
 constants.alpha = constants.e^2
 constants.R_inf = (constants.m_e * constants.e^4) / (8 * constants.epsilon0^2 * constants.h^3 * constants.c)
 return constants
