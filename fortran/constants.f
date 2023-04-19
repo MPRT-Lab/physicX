@@ -15,6 +15,9 @@
 		REAL, PARAMETER :: u0 = 4 * PI * 1E-7
 		REAL, PARAMETER :: epsilon0 = 1 / ((c**2) * u0)
 		REAL, PARAMETER :: k = 1/(4 * PI * epsilon0)
+		REAL, PARAMETER :: R = 8.31446261815324
+		REAL, PARAMETER :: k_B = R/N_A
+		REAL, PARAMETER :: kaka (8 * PI * G)/c ** 4
 		REAL, PARAMETER :: f = e * N_A
 		REAL, PARAMETER :: K_J = (2 * e)/h
 		REAL, PARAMETER :: R_K = h/e**2
