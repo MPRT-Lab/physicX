@@ -1,5 +1,5 @@
 module Physicx.Constants (
-  c, g, u0, epsilon0, k, h, rh, n_a, r, k_b, e, f, k_j, r_k, m_e, alpha, r_inf
+  c, g, u0, epsilon0, k, h, rh, n_a, r, k_b, e, f, k_j, r_k, m_e, alpha, r_inf, kaka
 ) where
 
 c :: Float
@@ -52,3 +52,6 @@ alpha = e**2/(2 * epsilon0 * (h * c))
 
 r_inf :: Float
 r_inf = (m_e * e**4)/(8 * epsilon0**2 * h**3 * c)
+
+kaka :: Float
+kaka = (8 * pi * G)/c ** 4
