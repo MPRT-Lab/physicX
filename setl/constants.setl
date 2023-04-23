@@ -19,7 +19,7 @@ var kaka := (8 * PI * G)/c ** 4
 var m_e := 9.1093837015e-31;
 var alpha := e ** 2/ (2 * epsilon0 * (h * c));
 var R_inf := (m_e * e ** 4)/((8 * epsilon0**2) * (h ** 3 * c));
-
+var kaka := (8 * PI * G)/c**4;
 end constants;
 
 
