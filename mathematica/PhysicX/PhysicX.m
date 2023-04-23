@@ -3,10 +3,13 @@
 BeginPackage["PhysicX`"];
 
 
-c; G; u0; k; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf;
+c; epsilon0; G; u0; k; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf;
 
 
 Begin["`Private`"];
+
+
+Context[]
 
 
 c = 299792458
