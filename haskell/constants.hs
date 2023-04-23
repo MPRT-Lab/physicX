@@ -54,4 +54,4 @@ r_inf :: Float
 r_inf = (m_e * e**4)/(8 * epsilon0**2 * h**3 * c)
 
 kaka :: Float
-kaka = (8 * pi * G)/c ** 4
+kaka = (8 * pi * g)/c ** 4
