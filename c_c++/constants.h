@@ -18,6 +18,7 @@ extern "C" {
 #define F e * N_A
 #define R 8.31446261815324
 #define k_B R/N_A
+#define H_0 66.6
 #define K_J (2 * e)/h
 #define R_K h/pow(e,2)
 #define m_e 9.1093837015e-31
