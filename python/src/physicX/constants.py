@@ -9,6 +9,7 @@ h = 6.62607015E-34
 R = 8.31446261815324
 k_B = R/N_A
 rh = h/(2 * np.pi)
+H_0 = 69.32
 u0 = 4 * np.pi * 1E-7
 epsilon0 = 1/((c**2) * u0)
 k = 1/(4 * np.pi * epsilon0)
