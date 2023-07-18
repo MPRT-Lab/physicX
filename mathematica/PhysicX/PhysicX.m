@@ -1,16 +1,10 @@
-(* ::Package:: *)
-
 BeginPackage["PhysicX`"];
 
-
-c; epsilon0; G; u0; k; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf;
-
+c; epsilon0; G; u0; k; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf; H0;
 
 Begin["`Private`"];
 
-
 Context[]
-
 
 c = 299792458
 G = 6.674* 10^(-11)
@@ -19,6 +13,7 @@ epsilon0 = 1 / (c^2 * u0)
 k = 1/(4 * Pi * epsilon0)
 h = 6.62607015 * 10^(-34)
 rh = h / (2 * Pi)
+H0 = 69.32
 NA = 6.02214076 * 10^(23)
 e = 1.602176634 * 10^(-19)
 F = e * NA
@@ -31,8 +26,6 @@ kaka = (8 * Pi * G)/c^4
 alpha = e^2/(2 * epsilon0 * (h * c))
 Rinf = (me * e^4) / (8 * epsilon0^2 * h^3 * c)
 
-
 End[];
-
 
 EndPackage[];
