@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "author": "cunknown",
+  "dependencies": {
+    "physicx": "^0.0.112"
+  }
+}
