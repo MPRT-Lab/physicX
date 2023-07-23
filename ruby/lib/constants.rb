@@ -17,7 +17,7 @@ module Constants
 	R_K		= H/E**2
 	Alpha		= E**2/(2 * Epsilon0 * (H * Speedoflight))
 	R_inf		= (M_E * (E ** 4)) / (8 * (Epsilon0 ** 2) * (H ** 3) * Speedoflight)	
-
+	H_0		= 66.6
 end
 
 
