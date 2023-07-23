@@ -7,6 +7,7 @@ constants.epsilon0 = 1/(constants.c^2 * constants.u0)
 constants.k = 1/(constants.epsilon0 * math.pi * 4)
 constants.h = 6.62607015e-34
 constants.rh = constants.h / (2 * math.pi)
+constants.H_0 = 66.6
 constants.N_A = 6.02214076e23
 constants.R = 8.31446261815324
 constants.k_B = constants.R/constants.N_A
