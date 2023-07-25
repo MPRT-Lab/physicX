@@ -7,4 +7,4 @@ physicX for All programming language supported is ```pre-release```
 gem install physicx
 ```
 
-ofcourse for updating again command up.
+Of course, use the command above to update.
