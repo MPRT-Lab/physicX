@@ -1,4 +1,4 @@
-#include "law.h"
+#include <law.h>
 
 float hubble(float D)
 {
