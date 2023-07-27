@@ -10,6 +10,7 @@
 		REAL, PARAMETER :: m_e = 9.1093837015E-31
 		REAL, PARAMETER :: h = 6.62607015E-34
 		REAL, PARAMETER :: R = 8.31446261815324
+		REAL, PARAMETER :: H_0 = 66.6
 		REAL, PARAMETER :: k_B = R/N_A
 		REAL, PARAMETER :: rh = h / (2 * PI)
 		REAL, PARAMETER :: u0 = 4 * PI * 1E-7
@@ -22,5 +23,4 @@
 		REAL, PARAMETER :: alpha = e**2/(2 * epsilon0 * (h * c))
 
 	END MODULE CONSTANTS
-
 
