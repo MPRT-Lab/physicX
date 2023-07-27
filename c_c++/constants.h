@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -28,4 +31,5 @@ extern "C" {
 #define R_inf (m_e * pow(e,4)) / (8 * pow(epsilon0,2) * pow(h,3) * c)
 #ifdef __cplusplus
 }
+#endif
 #endif
