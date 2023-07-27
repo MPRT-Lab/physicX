@@ -1,4 +1,4 @@
-#include "constants.h"
+#include <import.h>
 
 int main()
 {
@@ -6,5 +6,6 @@ int main()
   printf("%.15f\n", 1 / epsilon0);
   printf("%.34f\n", h * F);
   printf("%.15f", G);
+  printf("%f", hubble(30));
   return 0;
 }
