@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 dynamic = ["dependencies"]
 name = "physicX"
-version = "0.0.118"
+version = "0.0.1181"
 authors = [
   { name="anonymous14725", email="anonymous14725@yahoo.com" },
 ]
@@ -25,4 +25,3 @@ dependencies = {file = ["requirements.txt"]}
 [project.urls]
 "Homepage" = "https://github.com/anonymous14725/physicX"
 "Bug Tracker" = "https://github.com/anonymous14725/physicX/issues"
-
