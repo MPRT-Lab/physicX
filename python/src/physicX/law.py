@@ -1,4 +1,4 @@
-import constants as const
+import .constants as const
 
 ## Physics law's 
 
