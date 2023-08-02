@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 dynamic = ["dependencies"]
 name = "physicX"
-version = "0.0.1181"
+version = "0.0.1182"
 authors = [
   { name="anonymous14725", email="anonymous14725@yahoo.com" },
 ]
