@@ -1,2 +1,3 @@
-(LOAD "constants.lisp")
-(LOAD "law.lisp")
+(require "constants.lisp")
+(require "law.lisp")
+
