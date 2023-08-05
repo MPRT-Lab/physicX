@@ -5,3 +5,4 @@ import .constants as const
 ### Hubble law's 
 def hubble(D):
 	return const.H_0 * D
+
