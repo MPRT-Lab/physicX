@@ -1,4 +1,4 @@
-(LOAD "constants.lisp")
+(LOAD "physicx.lisp")
 
 (IN-PACKAGE constants)
 
