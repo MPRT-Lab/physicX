@@ -6,3 +6,4 @@ module Law
 	end
 	module_function :Hubble
 end
+
