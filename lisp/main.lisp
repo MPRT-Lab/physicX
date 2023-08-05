@@ -8,4 +8,4 @@
 (WRITE h) (TERPRI) (WRITE rh)
 (PRINT G)
 (PRINT (POW c 2))
-(PRINT (k_B))
+(PRINT k_B)
