@@ -1,6 +1,7 @@
 import Constants from "./constants.js";
+import Law from "./law.js";
 
-const physicx = new function() {
+const physicx = new function () {
 	this.constants = new function () {
 	  this.G = Constants.G;
 	  this.c = Constants.c;
@@ -19,6 +20,11 @@ const physicx = new function() {
 	  this.kaka = Constants.kaka;
 	  this.alpha = Constants.alpha;
 	  this.R_inf = Constants.R_inf;
+	}
+	this.law = new function () {
+	  this.hubble = function (D) {
+		return Law.Hubble(D);
+	  }
 	}
 }
 
