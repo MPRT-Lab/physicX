@@ -1,5 +1,6 @@
 	PROGRAM HELLO
-        USE CONSTANTS
+        USE LAW
+	USE CONSTANTS
         PRINT *,1/epsilon0
         PRINT *, h, rh
         PRINT *, G
