@@ -4,8 +4,5 @@
   "description": "",
   "main": "test.js",
   "type": "module",
-  "author": "cunknown",
-  "dependencies": {
-    "physicx": "^0.0.112"
-  }
+  "author": "cunknown"
 }
