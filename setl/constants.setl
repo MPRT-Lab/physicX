@@ -15,7 +15,6 @@ var e := 1.602176634e-19;
 var F := e * N_A;
 var K_J := (2 * e) / h;
 var R_K := h / e ** 2;
-var kaka := (8 * PI * G)/c ** 4;
 var m_e := 9.1093837015e-31;
 var H_0 := 66.6;
 var alpha := e ** 2/ (2 * epsilon0 * (h * c));
