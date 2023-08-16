@@ -1,3 +1,3 @@
 (* ::Package:: *)
 
-Paclet[Name -> "PhysicX", Version -> "1.0.0"]
+Paclet[Name -> "PhysicX", Version -> "1.0.1"]
