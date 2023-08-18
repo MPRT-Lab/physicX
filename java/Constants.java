@@ -15,7 +15,7 @@ public class Constants
 	public static double F = e * N_A;
 	public static double u0 = (4 * Math.PI * Math.pow(10,-7));
 	public static double epsilon0 = 1 / (Math.pow(c,2) * u0);
-	public static double k = 1/(4 * Math.PI * epsilon0);
+	public static double k_e = 1/(4 * Math.PI * epsilon0);
 	public static double k_B = R/N_A;
 	public static double K_J = (2 * e)/h;
 	public static double R_K = h/Math.pow(e,2);
