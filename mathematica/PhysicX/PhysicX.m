@@ -2,7 +2,7 @@
 
 BeginPackage["PhysicX`"];
 
-c; epsilon0; G; u0; k; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf; H0;
+c; epsilon0; G; u0; ke; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf; H0;
 (*Hubble law's *)
 Hubble[D_] := D * H0;
 Begin["`Private`"];
@@ -13,7 +13,7 @@ c = 299792458
 G = 6.674* 10^(-11)
 u0 = 4 * Pi * 10^(-7)
 epsilon0 = 1 / (c^2 * u0)
-k = 1/(4 * Pi * epsilon0)
+ke = 1/(4 * Pi * epsilon0)
 h = 6.62607015 * 10^(-34)
 rh = h / (2 * Pi)
 H0 = 69.32
