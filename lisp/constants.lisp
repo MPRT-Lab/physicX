@@ -15,7 +15,7 @@
 (DEFVAR G 6.674E-11)
 (DEFVAR u0 12.566370614359172954E-7)
 (DEFVAR epsilon0 (/ 1 (* (POW c 2) u0)))
-(DEFVAR k (/ 1 (* 4 PI epsilon0)))
+(DEFVAR k_b (/ 1 (* 4 PI epsilon0)))
 (DEFVAR h 6.62607015E-34)
 (DEFVAR rh (/ h (* 2 PI)))
 (DEFVAR N_A 6.02214076E23)
