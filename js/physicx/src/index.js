@@ -20,6 +20,7 @@ const physicx = new function () {
 	  this.kaka = Constants.kaka;
 	  this.alpha = Constants.alpha;
 	  this.R_inf = Constants.R_inf;
+	  this.k = Constants.k;
 	}
 	this.law = new function () {
 	  this.hubble = function (D) {
