@@ -17,5 +17,6 @@ const Constants = new function () {
 	  this.kaka = (8 * Math.PI * this.G)/this.c**4;
 	  this.alpha = this.e**2/ (2 * this.epsilon0 * (this.h * this.c));
 	  this.R_inf = (this.m_e * (this.e ** 4))/(8 * (this.epsilon0 ** 2) * (this.h ** 3) * this.c)
+	  this.k = this.R / this.N_A
 }
 export default Constants;
