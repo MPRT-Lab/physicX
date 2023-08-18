@@ -10,7 +10,7 @@ module Constants
 	Rh		= H/(2 * Math::PI)
 	U0		= (4 * Math::PI * 1e-7)
 	Epsilon0	= 1 / ((Speedoflight ** 2) * U0)
-	K		= 1/(4 * Math::PI * Epsilon0)
+	K_E		= 1/(4 * Math::PI * Epsilon0)
 	F		= E * N_A
 	K_J		= (2 * E)/H
 	Kaka		= (8 * Math::PI * G)/Speedoflight ** 4
