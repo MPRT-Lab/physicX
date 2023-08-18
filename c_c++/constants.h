@@ -13,7 +13,7 @@ extern "C" {
 #define G 6.674e-11
 #define u0 (4 * M_PI * pow(10,-7))
 #define epsilon0 1 / (pow(c,2) * u0)
-#define k 1/(4 * M_PI * epsilon0)
+#define k_e 1/(4 * M_PI * epsilon0)
 #define h 6.62607015e-34
 #define rh h / (2 * M_PI)
 #define N_A 6.02214076e23
