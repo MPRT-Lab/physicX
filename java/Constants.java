@@ -23,4 +23,5 @@ public class Constants
 	public static double alpha = Math.pow(e,2)/ (2 * epsilon0 * (h * c));
 	public static double R_inf = (m_e * Math.pow(e,4)) / (8 * Math.pow(epsilon0,2) * Math.pow(h,3) * c);
 	public static double H_0 = 66.6;
+	public static double k = R / N_A;
 }
