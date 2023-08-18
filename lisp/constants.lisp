@@ -28,3 +28,4 @@
 (DEFVAR R_K (/ h (POW e 2)))
 (DEFVAR m_e 9.1093837015E-31)
 (DEFVAR alpha (/ (POW e 2) (* (* 2 epsilon0) (* h c))))
+(DEFVAR k (/ R N_A))
