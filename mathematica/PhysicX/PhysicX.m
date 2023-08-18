@@ -2,7 +2,7 @@
 
 BeginPackage["PhysicX`"];
 
-c; epsilon0; G; u0; ke; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf; H0;
+c; epsilon0; G; u0; ke; h; rh; NA; e; F; R; kB; KJ; RK; me; kaka; alpha; Rinf; H0; k;
 (*Hubble law's *)
 Hubble[D_] := D * H0;
 Begin["`Private`"];
@@ -28,7 +28,7 @@ me = 9.1093837015 * 10^(-31)
 kaka = (8 * Pi * G)/c^4
 alpha = e^2/(2 * epsilon0 * (h * c))
 Rinf = (me * e^4) / (8 * epsilon0^2 * h^3 * c)
-
+k = R / NA
 End[];
 
 EndPackage[];
