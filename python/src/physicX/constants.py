@@ -55,3 +55,5 @@ R_K = h/e**2
 
 ### fine-structure constant
 alpha = e**2/(2 * epsilon0 * (h * c))
+
+k = R / N_A
