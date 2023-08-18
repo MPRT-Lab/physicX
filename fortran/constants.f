@@ -20,6 +20,7 @@
 		REAL, PARAMETER :: f = e * N_A
 		REAL, PARAMETER :: K_J = (2 * e)/h
 		REAL, PARAMETER :: R_K = h/e**2
+  		REAL, PARAMETER :: k = R / N_A
 		REAL, PARAMETER :: alpha = e**2/(2 * epsilon0 * (h * c))
 
 	END MODULE CONSTANTS
