@@ -39,7 +39,7 @@ u0 = 4 * np.pi * 1E-7
 epsilon0 = 1/((c**2) * u0)
 
 ### Coulomb's constant
-k_e = 1/(4 * np.pi * epsilon0)
+k = 1/(4 * np.pi * epsilon0)
 
 ### Faraday constant
 f = e * N_A
@@ -55,5 +55,3 @@ R_K = h/e**2
 
 ### fine-structure constant
 alpha = e**2/(2 * epsilon0 * (h * c))
-
-k = R / N_A
