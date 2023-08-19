@@ -4,7 +4,7 @@ constants.c = 299792458
 constants.G = 6.674e-11
 constants.u0 =  (4 * math.pi * 1E-7)
 constants.epsilon0 = 1/(constants.c^2 * constants.u0)
-constants.k_e = 1/(constants.epsilon0 * math.pi * 4)
+constants.k = 1/(constants.epsilon0 * math.pi * 4)
 constants.h = 6.62607015e-34
 constants.rh = constants.h / (2 * math.pi)
 constants.H_0 = 66.6
@@ -19,5 +19,4 @@ constants.m_e = 9.1093837015e-31
 constants.kaka = (8 * math.pi * constants.G)/(constants.c^4)
 constants.alpha = constants.e^2
 constants.R_inf = (constants.m_e * constants.e^4) / (8 * constants.epsilon0^2 * constants.h^3 * constants.c)
-constants.k = constants.R / constants.N_A
 return constants
