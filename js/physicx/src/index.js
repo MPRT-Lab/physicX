@@ -7,7 +7,7 @@ const physicx = new function () {
 	  this.c = Constants.c;
 	  this.u0 = Constants.u0;
 	  this.epsilon0 = Constants.epsilon0;
-	  this.k_e = Constants.k_e;
+	  this.k = Constants.k;
 	  this.h = Constants.h;
 	  this.rh = Constants.rh;
 	  this.N_A = Constants.N_A;
@@ -20,7 +20,6 @@ const physicx = new function () {
 	  this.kaka = Constants.kaka;
 	  this.alpha = Constants.alpha;
 	  this.R_inf = Constants.R_inf;
-	  this.k = Constants.k;
 	}
 	this.law = new function () {
 	  this.hubble = function (D) {
