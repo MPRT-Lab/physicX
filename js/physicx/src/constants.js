@@ -2,6 +2,8 @@ const Constants = new function () {
 	  this.G = 6.674e-11;
 	  this.c = 299792458;
 	  this.u0 = (4 * Math.PI * 10 ** (-7));
+	  this.k_cd = 683;
+	  this.b = 2.897771955;
 	  this.epsilon0 = 1 / (this.c**2 * this.u0);
 	  this.k = 1/(4 * Math.PI * this.epsilon0);
 	  this.h = 6.62607015e-34;
@@ -17,5 +19,6 @@ const Constants = new function () {
 	  this.kaka = (8 * Math.PI * this.G)/this.c**4;
 	  this.alpha = this.e**2/ (2 * this.epsilon0 * (this.h * this.c));
 	  this.R_inf = (this.m_e * (this.e ** 4))/(8 * (this.epsilon0 ** 2) * (this.h ** 3) * this.c);
+	  this.sigma = (2 * Math.PI**5 * this.k_B**4)/(15 * this.h**3 * c**2);
 }
 export default Constants;
