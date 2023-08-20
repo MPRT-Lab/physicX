@@ -6,6 +6,7 @@ const physicx = new function () {
 	  this.G = Constants.G;
 	  this.c = Constants.c;
 	  this.u0 = Constants.u0;
+	  this.k_cd = Constants.k_cd;
 	  this.epsilon0 = Constants.epsilon0;
 	  this.k = Constants.k;
 	  this.h = Constants.h;
@@ -20,6 +21,8 @@ const physicx = new function () {
 	  this.kaka = Constants.kaka;
 	  this.alpha = Constants.alpha;
 	  this.R_inf = Constants.R_inf;
+	  this.sigma = Constants.sigma;
+	  this.b = Constants.b;
 	}
 	this.law = new function () {
 	  this.hubble = function (D) {
