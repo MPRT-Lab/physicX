@@ -1,9 +1,7 @@
 require "constants.rb"
 
 module Law
-	def Hubble(D)
-		Constants::H_0 * D
+	def Hubble(d)
+		Constants::H_0 * d
 	end
-	module_function :Hubble
 end
-
