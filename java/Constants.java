@@ -7,9 +7,11 @@ public class Constants
 	public static double h = 6.62607015e-34;
 	public static double G = 6.674e-11;
 	public static double c = 299792458;
+	public static double k_cd = 683;
 	public static double e = 1.602176634e-19;
 	public static double N_A = 6.02214076e23;
 	public static double R = 8.31446261815324;
+	public static double b = 2.897771955;
 	public static double m_e = 9.1093837015e-31;
 	public static double rh = h / (2 * Math.PI);
 	public static double F = e * N_A;
@@ -23,4 +25,5 @@ public class Constants
 	public static double alpha = Math.pow(e,2)/ (2 * epsilon0 * (h * c));
 	public static double R_inf = (m_e * Math.pow(e,4)) / (8 * Math.pow(epsilon0,2) * Math.pow(h,3) * c);
 	public static double H_0 = 66.6;
+	public static double sigma = (2 * Math.pow(Math.PI,5) * Math.pow(k_B,4))/(15 * Math.pow(h,3) * Math.pow(c,2));
 }
