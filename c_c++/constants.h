@@ -12,6 +12,8 @@ extern "C" {
 #define c 299792458
 #define G 6.674e-11
 #define u0 (4 * M_PI * pow(10,-7))
+#define k_cd 683
+#define b 2.897771955
 #define epsilon0 1 / (pow(c,2) * u0)
 #define k 1/(4 * M_PI * epsilon0)
 #define h 6.62607015e-34
@@ -26,9 +28,9 @@ extern "C" {
 #define R_K h/pow(e,2)
 #define m_e 9.1093837015e-31
 #define kaka (8 * M_PI * G)/pow(c,4)
-
 #define alpha pow(e,2)/ (2 * epsilon0 * (h * c)) 
 #define R_inf (m_e * pow(e,4)) / (8 * pow(epsilon0,2) * pow(h,3) * c)
+#define sigma (2 * pow(M_PI,5) * pow(k_B,4))/(15 * pow(h,3) * pow(c,2))
 #ifdef __cplusplus
 }
 #endif
