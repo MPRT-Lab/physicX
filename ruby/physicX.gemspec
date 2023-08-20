@@ -1,6 +1,6 @@
 Gem::Specification.new do |a|
 	a.name		= "physicx"
-	a.version	= "0.0.1134"
+	a.version	= "0.0.1136"
 	a.summary	= "PhysicX"
 	a.description	= "mathematics and physics library"
 	a.authors	= ["Mad99hi"]
