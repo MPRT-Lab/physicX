@@ -13,6 +13,8 @@
 ; PHYSICS CONSTANTS
 (DEFVAR c 299792458)
 (DEFVAR G 6.674E-11)
+(DEFVAR b 2.897771955)
+(DEFVAR k_cd 683)
 (DEFVAR u0 12.566370614359172954E-7)
 (DEFVAR epsilon0 (/ 1 (* (POW c 2) u0)))
 (DEFVAR k (/ 1 (* 4 PI epsilon0)))
@@ -28,3 +30,4 @@
 (DEFVAR R_K (/ h (POW e 2)))
 (DEFVAR m_e 9.1093837015E-31)
 (DEFVAR alpha (/ (POW e 2) (* (* 2 epsilon0) (* h c))))
+(DEFVAR sigma 5.6703744191844314E-8)
