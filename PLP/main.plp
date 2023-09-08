@@ -1,0 +1,6 @@
+>"physicX.plp"
+
+- PLP -c main.plp
+_ print pow(c,2) << nline
+ print "years ago world:" << 1/H_0
+.
