@@ -1,0 +1,6 @@
+IMPORT 
+#include "constants.plp"
+
+function (dec4 hubble, dec4 D)
+	return H_0 * D;
+ends
