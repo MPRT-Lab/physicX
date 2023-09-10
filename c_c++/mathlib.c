@@ -22,3 +22,4 @@ int summation(int i, int n, int x)
 	}
 	return 0;
 }
+
