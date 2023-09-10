@@ -13,3 +13,4 @@ public class main{
 		System.out.println(laws.hubble(30));
 	}
 }
+
