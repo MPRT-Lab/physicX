@@ -2,7 +2,7 @@ P= test
 
 OBJ= law.o main.o mathlib.o
 
-CFLAGS= -O2 -I. -Wall
+CFLAGS= -O2 -I. -Wall -std=c99
 
 all: $P
 
