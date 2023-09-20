@@ -1,5 +1,5 @@
-f77 -c *.f
-f77 -o test *.o
+gfortran -c *.f
+gfortran -o test *.o
 echo Please check [test] file and type command ./test
 while getopts dh flag
 do
