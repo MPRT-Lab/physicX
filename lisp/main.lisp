@@ -13,4 +13,7 @@
 (IN-PACKAGE law)
 (PRINT (hubble 30))
 
+(IN-PACKAGE mathlib)
+(PRINT (FIBONACCI 10))
+
 
