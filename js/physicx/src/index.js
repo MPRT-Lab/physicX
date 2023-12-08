@@ -1,5 +1,6 @@
 import Constants from "./constants.js";
 import Law from "./law.js";
+import Mathlib from "./mathlib.js";
 
 const physicx = new function () {
 	this.constants = new function () {
@@ -28,6 +29,27 @@ const physicx = new function () {
 	  this.hubble = function (D) {
 		return Law.Hubble(D);
 	  }
+	}
+
+	this.mathlib = new function() {
+		this.fibonacci = function(num) {
+			return Mathlib.Fibonacci(num);
+		}
+		this.ack = function(m,n) {
+			return Mathlib.Ackermann(m,n);
+		}
+		this.factorial = function(n) {
+			return Mathlib.Factorial(n);
+		}
+		this.gcd = function(a, b) {
+			return Mathlib.GCD(a, b);
+		}
+		this.lcm = function (a, b) {
+			return Mathlib.LCM(a, b);
+		}
+		this.summation = function(i, n, x) {
+			return Mathlib.Summation(i,n,x);
+		}
 	}
 }
 
