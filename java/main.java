@@ -10,7 +10,6 @@ public class main{
 		System.out.println(con.kaka);
 		
 		Law laws = new Law();
-		System.out.println(laws.hubble(30));
+		System.out.println(laws.planck(1e-15, 7500));
 	}
 }
-
