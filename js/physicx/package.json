@@ -1,6 +1,6 @@
 {
   "name": "physicx",
-  "version": "0.0.1165",
+  "version": "0.0.1164",
   "description": "mathematics and physics library",
   "main": "src/index.js",
   "type": "module",
