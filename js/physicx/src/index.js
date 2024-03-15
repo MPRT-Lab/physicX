@@ -28,7 +28,10 @@ const physicx = new function () {
 	this.law = new function () {
 	  this.hubble = function (D) {
 		return Law.Hubble(D);
-	  }
+		}
+	this.planck = function (nu, T) {
+		return Law.Planck(nu, T);
+		}
 	}
 
 	this.mathlib = new function() {
