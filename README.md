@@ -1,2 +1,2 @@
 # physicX
-mathematics and physics library 
+The library for mathematics and physics
