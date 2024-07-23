@@ -4,6 +4,6 @@
 #define LAW_H
 
 float hubble(float D);
-int planck(float nu, int T);
+double planck(double nu, double T);
 
 #endif
