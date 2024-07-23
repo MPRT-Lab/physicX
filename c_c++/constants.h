@@ -9,6 +9,7 @@
 extern "C" {
 #endif
 
+#define PI acos(-1)
 #define c 299792458
 #define G 6.674e-11
 #define u0 (4 * M_PI * pow(10,-7))
