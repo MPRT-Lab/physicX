@@ -4,3 +4,7 @@ IMPORT
 function (dec4 hubble, dec4 D)
 	return H_0 * D;
 ends
+
+function (dec8 planck, dec8 nu, dec8 T)
+	return (8 * PI * pow(nu,2) * h * nu)/(pow(c,3) * exp((h * nu)/(k_B * T)) - 1);
+ends
