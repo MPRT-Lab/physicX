@@ -5,7 +5,7 @@ float hubble(float D)
 	return H_0 * D;
 }
 
-int planck(float nu,int T)
+double planck(double nu,double T)
 {
-	return (8 * 3.14 * pow(nu,2) * h * nu)/(pow(c,3) * exp((h * nu)/(k_B * T)) - 1);
+	return (8 * PI * pow(nu,2) * h * nu)/(pow(c,3) * exp((h * nu)/(k_B * T)) - 1);
 }
