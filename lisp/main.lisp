@@ -1,7 +1,7 @@
 (require "physicx.lisp")
 
 (IN-PACKAGE constants)
-(FORMAT T "~% k = ~F" (/ 1 (* 4 PI epsilon0))) 
+(FORMAT T "~% k = ~F" (/ 1 (* 4 PI epsilon0)))
 (PRINT K_J)
 (PRINT (/ 1 epsilon0))
 (WRITE h) (TERPRI) (WRITE rh)
@@ -13,7 +13,7 @@
 
 (IN-PACKAGE law)
 (PRINT (hubble 30))
+(PRINT (planck 1.0e14 300))
 
 (IN-PACKAGE mathlib)
 (PRINT (FIBONACCI 10))
-
