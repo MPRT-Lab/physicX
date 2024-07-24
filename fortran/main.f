@@ -6,4 +6,5 @@
         PRINT *, G
         PRINT *, e * u0
         PRINT *, c ** 2
+	WRITE (*,*) PLANCK(1E16,1E10)
         END PROGRAM HELLO
